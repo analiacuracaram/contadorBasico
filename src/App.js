@@ -1,11 +1,12 @@
-import './App.css';
-import NavBar from './components/NavBar/NavBar';
-
+import "./App.css";
+import NavBar from "./components/NavBar/NavBar";
+import ItemListContainer from "./containers/ItemListContainer/ItemListContainer.jsx";
 
 function App() {
   return (
     <div className="App">
-      <NavBar brand= {"Moshi´s Gift Shop"} icon= {<i class="fa-regular fa-cat"></i>}/>
+      <NavBar />
+      <ItemListContainer greeting={"Bienvenidos a la web de Moshi´s"} />
     </div>
   );
 }
