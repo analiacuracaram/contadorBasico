@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <NavBar />
       <ItemListContainer greeting={"Bienvenidos a la web de Moshi´s"} />
+      
     </div>
   );
 }

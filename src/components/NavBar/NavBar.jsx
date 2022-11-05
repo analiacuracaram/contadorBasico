@@ -2,9 +2,7 @@ import React from "react";
 import CartWidget from "../CartWidget/CartWidget.jsx";
 import "./styles.css";
 
-const NavBar = ({ brand, icon }) => {
-  console.log(brand);
-  console.log(icon);
+const NavBar = () => {
   return (
     <ul>
       <li>
